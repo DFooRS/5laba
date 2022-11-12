@@ -22,4 +22,4 @@ if __name__ == '__main__':
         S += a
         n += 1
 
-    print(f"Ei({x}) = {S * (2 / math.sqrt(math.pi))}")
+    print(f"erf({x}) = {S * (2 / math.sqrt(math.pi))}")
