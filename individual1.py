@@ -3,13 +3,8 @@
 
 import sys
 
-
 if __name__ == '__main__':
-    print("Seasons:\n"
-          "1 - winter\n"
-          "2 - spring\n"
-          "3 - summer\n"
-          "4 - autumn\n")
+    print("Seasons:\n1 - winter\n2 - spring\n3 - summer\n4 - autumn\n")
     n = int(input("Enter season: "))
 
     if n == 1:
@@ -23,4 +18,3 @@ if __name__ == '__main__':
     else:
         print("Error!", file=sys.stderr)
         exit(1)
-
